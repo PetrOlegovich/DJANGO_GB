@@ -13,3 +13,5 @@ class Command(BaseCommand):
                             address=f'Город {i}, улица {i}',
                             time_create=f"2000-01-{i}")
             author.save()
+
+
