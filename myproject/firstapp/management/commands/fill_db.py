@@ -1,7 +1,7 @@
 import random
 
 from django.core.management.base import BaseCommand
-from myapp.models import User, Product
+from firstapp.models import User, Product
 
 products = ['Стиральный порошок', 'Мыло', 'Гель для душа', 'Пена для бритья', 'Гель после бритья', 'Соль для ванны', 'Зубная щетка',
             'Зубная паста', 'Маска для лица', 'Духи', 'Одиколон', 'Тапочки', 'Носки', 'Джемпер', 'Куртка', 'Шапка',

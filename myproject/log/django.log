@@ -1177,3 +1177,5 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 django.db.utils.OperationalError: no such table: firstapp_orders
 "GET /order/1/ HTTP/1.1" 500 134963
+C:\Users\Petr\PycharmProjects\django\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader

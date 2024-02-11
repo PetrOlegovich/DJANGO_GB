@@ -75,8 +75,8 @@ def show_post_id(request, post_id):
 def user_order(request, user_id):
     user = get_object_or_404(User, pk=user_id)
     orders = Orders.objects.filter(customer=user).order_by('date_ordered')
-    return render(request, 'myapp/user_order.html', {'user': user, 'orders': orders})
+    return render(request, 'firstapp/user_order.html', {'user': user, 'orders': orders})
 
 def order_full(request, order_id):
     order = get_object_or_404(Orders, pk=order_id)
-    return render(request, 'myapp/order_full.html', {'order': order})
+    return render(request, 'firstapp/order_full.html', {'order': order})
